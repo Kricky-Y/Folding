@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+main {
+  width: 550px;
+  margin: 30px auto;
+  padding: 15px;
+  border: 1px solid;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  /* text-decoration: green underline; */
+}
+
+p {
+text-align: left;
+}
+
+button {
+  width: 120px;
+}
+
+#more {
+  display: none;
+}
+#more.appear {
+  display: block;
+}
+
